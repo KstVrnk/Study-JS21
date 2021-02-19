@@ -1,0 +1,38 @@
+const user = {
+    Brandcar: 'Toyota',
+    ModelName: 'Camry',
+    isAdmin: false, 
+    Guarantee: null,
+    DateManufactured: undefined,
+    Generation: NaN,
+    Restaling: 'restaling.2',
+    Equipment: Symbol ('Comfort'),
+};
+
+const isAdmin = false; //Boolean
+const Year = 10; //Number
+const Guarantee = null; //Null
+const DateManufactured = undefined; //Undefined
+const Genaraion = NaN; //Nan
+const Restaling = 'restaling.2'; //String
+const Equipment = Symbol ('Comfort'); //Symbol
+
+const typeAdmin = typeof isAdmin;
+const typeUser = typeof (user)
+const typeYear = typeof Year;
+const typeGuarantee = typeof Guarantee;
+const typeDateManufactured = typeof DateManufactured;
+const typeGenaraion = typeof Genaraion;
+const typeRestaling = typeof Restaling;
+const typeEquipment = typeof Equipment;
+
+
+console.log('TYPE-object', user);
+console.log('TYPE-isAdmin', typeAdmin);
+console.log('TYPE-typeUser', typeUser);
+console.log('TYPE-typeYear', typeYear);
+console.log('TYPE-typeGuarantee', typeGuarantee);
+console.log('TYPE-typeDateManufactured', typeDateManufactured);
+console.log('TYPE-typeGenaraion', typeGenaraion);
+console.log('TYPE-typeRestaling', typeRestaling);
+console.log('TYPE-typeEquipment', typeEquipment);
